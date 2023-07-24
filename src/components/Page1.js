@@ -127,7 +127,7 @@ const Page1 = () => {
                                         <img className='img-fluid' src={img10} alt="" />
                                     </div>
                                 </div>
-                                <div className="col-md-6">  <img className='img-fluid' src={img11} alt="" /></div>
+                                <div className="col-md-6">  <img className='img-fluid sml' src={img11} alt="" /></div>
                                 <div className="col-md-3">
                                     <div>
                                         <img className='img-fluid' src={img12} alt="" />
@@ -256,7 +256,7 @@ const Page1 = () => {
                 <h2 className='sec-6-heading'>AWARDS & ACHIEVEMENT</h2>
 
                 <div className="logos">
-                    <ul className='d-flex flex-wrap justify-content-around'>
+                    <ul className='d-flex flex-wrap justify-content-around sm_lodo '>
                         <li><img src={img22} alt="" /></li>
                         <li><img src={img23} alt="" /></li>
                         <li><img src={img24} alt="" /></li>
@@ -264,7 +264,7 @@ const Page1 = () => {
                         <li><img src={img26} alt="" /></li>
                     </ul>
 
-                    <ul className='d-flex flex-wrap justify-content-around mt-5'>
+                    <ul className='d-flex flex-wrap justify-content-around  sm_lodo mt-5'>
                         <li><img src={img27} alt="" /></li>
                         <li><img src={img28} alt="" /></li>
                         <li><img src={img29} alt="" /></li>
@@ -312,7 +312,7 @@ const Page1 = () => {
                     <div className='footer-details'>
                     <div className="row mt-5">
                         <div className="col-md-4 text-start ">
-                        <img className='mx-2 mt-4 img-fluid' src={call} alt="" />
+                        <img className='img-fluid mx-2 mt-4 ' src={call} alt="" />
                           <span className='smal'>Call Us</span>              
                              <div className='marg-lef'>
                            <img src={india} alt="" /> +91 (731) 409-1887
@@ -320,7 +320,7 @@ const Page1 = () => {
                           
                         </div>
                         <div className="col-md-4 text-start ">
-                            <img className='mx-1 mt-3 img-fluid' src={location} alt="" />
+                            <img className='img-fluid mx-1 mt-3 ' src={location} alt="" />
                           <span className='smal'>Head Office: Plot 169, Scheme 78,Part II,</span>              
                              <div className='marg-lef'>
                              Behind Kanak Hospital Indore,  
@@ -328,8 +328,8 @@ const Page1 = () => {
                             
                               </div>
 
-                        <div className="col-md-4">
-                           <img className='mx-2 mt-3 img-fluid' src={mail} alt="" />
+                        <div className="col-md-4 text-start">
+                           <img className='img-fluid mx-2 mt-3 ' src={mail} alt="" />
                           <span className='smal'>sales@lemosys.com </span>              
                              <div className='marg-lef'>
                              <i class="bi bi-skype"></i> lemosys_infotech
