@@ -1,0 +1,32 @@
+.nav-1{
+    background-color: #f58934;
+    color: white;
+}
+.nav-btn-edit{
+    background: #f58934!important;
+    border: 1px solid #f58934;
+    border-radius: 6px!important;
+    color: #fff!important;
+  
+    font-size: 16px;
+    font-weight: 700!important;
+    letter-spacing: normal;
+    line-height: 1.33!important;
+    /* margin-right: 10px!important; */
+    /* margin-top: 8px!important;    */
+    padding: 8px 20px!important;
+}
+
+.navbar-nav li a {
+    color: #575757!important;
+}
+ .navbar-nav>li>a {
+    border-radius: 3px!important;
+  
+    font-family: Montserrat,sans-serif!important;
+    font-weight: 550!important;
+    letter-spacing: .4px;
+    font-size: 14px;
+ margin: 1px;
+    text-transform: uppercase;
+}

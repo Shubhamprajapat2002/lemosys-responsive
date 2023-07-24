@@ -1,0 +1,246 @@
+.sec-1-main{
+    background-image: url('../images/banner-img.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.sec-1-text{
+    position: absolute;
+    top: 75%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 34%;
+    text-align: start;
+}
+
+.sec-1-font{
+    font-size: xxx-large !important;
+}
+
+.sec-1-button-edit{
+margin-top: 30px;
+padding: 10px 20px;
+background: #7ec253;
+color: #fff;
+border-radius: 3px;
+}
+
+.sec-1-button-edit:hover{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #7ec253;
+    color: #fff;
+    border-radius: 3px;
+    }
+
+
+    .sec-2-heading{
+        font-size: 35px !important; 
+        font-weight: 700!important;
+        margin-top: 0;
+        padding: 32px 0 15px;
+        
+    }
+
+    .paragraph{
+        max-width: 989px;
+    margin: auto;
+    }
+
+    .sec-2-para{
+        font-size: 16px;
+        font-weight: 367;
+    }
+
+    .bg-blue{
+        position: relative;
+    }
+
+    .blue-box{
+        background-color: #2d9dd9;
+        content: "";
+        height: 55%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .sec-3-heading{
+        color: white;
+    }
+    .sec-3-strong{
+        font-family: 'Lobster Two',cursive;
+        font-size: 200%;
+        font-style: italic;
+        text-transform: lowercase;
+    }
+
+    .development ul li{
+        list-style-type: none;
+    }
+
+  .sec-developement li{
+    padding: 8px;
+  }
+
+  .develop-1{
+    border: 2px solid white;
+    border-radius: 16px;
+  }
+  .develop-2:hover{
+    border: 2px solid white;
+    border-radius: 16px;
+  }
+  .develop-3:hover{
+    border: 2px solid white;
+    border-radius: 16px;
+  }
+
+ 
+.sec-3-button{
+    background: #7FC24E;
+    border: none;
+    /* font-size: 22px; */
+    margin-top: 62px;
+    padding: 17px 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+}
+
+.section-4-mian{
+    background: url('../images/footer_bg.jpg') #000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+}
+
+.circle{
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    max-height: 163px;
+    min-height: 267px;
+}
+
+.sec-5-heading{
+
+    color: #333;
+    font-size: 35px;
+    font-weight: 600!important;
+
+}
+.sec-6-heading{
+   
+    color: #333;
+    font-size: 35px;
+    font-weight: 600!important; 
+}
+
+.sec-5-paragraph{
+    max-width: 830px;
+margin: auto;
+}
+
+.sec-5-para{
+    font-size: 16px;
+    font-weight: 367;
+}
+
+.ticker {
+    display: flex;
+    overflow: hidden;
+}
+.ticker__list {
+    display: flex;
+    margin-top: 20px;
+    animation: ticker 50s infinite linear;
+    /* transition: all; */
+    
+}
+.ticker__item img {
+    max-width: initial;
+}
+
+
+.logos ul li{
+    list-style-type: none;
+}
+
+.footer-services ul li{
+    list-style-type: none;
+    
+}
+.footer-social ul li{
+    list-style-type: none;
+}
+
+
+.footer-main{
+    background-image: url('../images/footer_bg.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+}
+
+.space li {
+    border-right: 2px solid #a59b9b;
+    font-size: large!important;
+    padding: 0px 12px;
+    font-weight: 300;
+}
+
+.space-1 li{
+    border-radius: 50%;
+    border: 4px solid #bdb3b3;
+  
+    padding: 8px 12px;
+    font-weight: 300;
+    margin: 25px 20px;
+}
+
+
+.footer-details{
+    margin-top: 30px;
+    border-top: 2px dotted #808083;
+}
+
+.marg-lef{
+    margin-left: 25%;
+    margin-top: -8%;
+    font-size: 15px;
+}
+
+.smal{
+    font-size: 15px;
+}
+
+
+.footer-part-2{
+    background: #2D2D2D;
+    color: white;
+}
+
+
+
+@keyframes ticker {
+
+100% {
+    transform: translateX(-100%);
+}
+}
