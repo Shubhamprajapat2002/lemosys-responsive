@@ -42,7 +42,7 @@ const Page1 = () => {
     return (
         <>
             {/* SECTION1  */}
-            <section>
+            <section className='pad-top'>
                 <div className="section-1">
                     <div className="sec-1-main">
                         <div className="sec-1-text">
@@ -67,23 +67,23 @@ const Page1 = () => {
                     <div className="pt-4">
                         <div className="container ">
                             <div className="row justify-content-between">
-                                <div className="col-md-2 d-flex flex-md-row">
+                                <div className="col-md-2 d-md-flex flex-md-row">
                                     <p><img src={img1} alt="" /></p>
                                     <p className='mx-3'>  Web Designing & Development</p>
                                 </div>
-                                <div className="col-md-2 d-flex flex-md-row">
+                                <div className="col-md-2 d-md-flex flex-md-row">
                                     <p> <img src={img2} alt="" /></p>
                                     <p className="mx-2">   Graphic Design</p>
                                 </div>
-                                <div className="col-md-2 d-flex flex-md-row">
+                                <div className="col-md-2 d-md-flex flex-md-row">
                                     <p>    <img src={img3} alt="" /> </p>
                                     <p className="mx-3">      Digital Marketing</p>
                                 </div>
-                                <div className="col-md-2 d-flex flex-md-row">
+                                <div className="col-md-2 d-md-flex flex-md-row">
                                     <p>  <img src={img4} alt="" /></p>
                                     <p className="mx-2">  Mobile App Development</p>
                                 </div>
-                                <div className="col-md-2 d-flex flex-md-row">
+                                <div className="col-md-2 d-md-flex flex-md-row">
                                     <p> <img src={img5} alt="" /></p>
                                     <p className="mx-2">  Software Testing</p>
                                 </div>
@@ -119,23 +119,23 @@ const Page1 = () => {
 
                             <div className="row g-0 mt-5 ">
 
-                                <div className="col-md-6">   <img className='img-fluid' src={img6} alt="" /></div>
-                                <div className="col-md-3">  <img className='img-fluid' src={img7} alt="" /></div>
-                                <div className="col-md-3">   <img className='img-fluid' src={img8} alt="" /></div>
+                                <div className="col-md-6">   <img className='img-fluid image-small' src={img6} alt="" /></div>
+                                <div className="col-md-3">  <img className='img-fluid image-small' src={img7} alt="" /></div>
+                                <div className="col-md-3">   <img className='img-fluid image-small' src={img8} alt="" /></div>
 
 
 
                                 <div className="col-md-3">
                                     <div>
-                                        <img className='img-fluid' src={img9} alt="" />
-                                        <img className='img-fluid' src={img10} alt="" />
+                                        <img className='img-fluid image-small' src={img9} alt="" />
+                                        <img className='img-fluid image-small' src={img10} alt="" />
                                     </div>
                                 </div>
-                                <div className="col-md-6">  <img className='img-fluid sml' src={img11} alt="" /></div>
+                                <div className="col-md-6">  <img className='img-fluid image-small ' src={img11} alt="" /></div>
                                 <div className="col-md-3">
                                     <div>
-                                        <img className='img-fluid' src={img12} alt="" />
-                                        <img className='img-fluid' src={img13} alt="" />
+                                        <img className='img-fluid image-small' src={img12} alt="" />
+                                        <img className='img-fluid image-small' src={img13} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -260,20 +260,19 @@ const Page1 = () => {
                 <h2 className='sec-6-heading'>AWARDS & ACHIEVEMENT</h2>
 
                 <div className="logos my-5">
-                    <ul className='d-flex flex-wrap justify-content-around sm_lodo '>
+                    <ul className='d-flex icon-edit  sm_lodo '>
                         <li><img src={img22} alt="" /></li>
                         <li><img src={img23} alt="" /></li>
                         <li><img src={img24} alt="" /></li>
                         <li><img src={img25} alt="" /></li>
                         <li><img src={img26} alt="" /></li>
-                    </ul>
-
-                    <ul className='d-flex flex-wrap justify-content-around  sm_lodo mt-5'>
+                    
+                  
                         <li><img src={img27} alt="" /></li>
                         <li><img src={img28} alt="" /></li>
                         <li><img src={img29} alt="" /></li>
                         <li><img src={img30} alt="" /></li>
-                        <li className='mt-4'><img src={img31} alt="" /></li>
+                        <li className='mt-5'><img src={img31} alt="" /></li>
                     </ul>
                 </div>
                 </div>

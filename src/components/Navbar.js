@@ -5,7 +5,7 @@ import logo from '../images/logoemosys-logo.png'
 
 const Navbar = () => {
     return (
-        <>
+        <div className='sticky'>
             <div className="nav-1">
                 <div className="container">
                     <div className="row">
@@ -78,7 +78,7 @@ const Navbar = () => {
                     </nav>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
