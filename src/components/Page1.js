@@ -154,14 +154,76 @@ const Page1 = () => {
             <section>
                 <div className="section-4  mt-5">
                     <div className="section-4-mian py-5">
-                        <div className="container">
+                       
 
                             <h1 >HIRE WEBSITE DEVELOPMENT COMPANY IN INDIA</h1>
                             <h2>WITH MOST IN-DEMAND SKILLS</h2>
 
+                            <div className="container">
+            <div className="row py-5">
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img14} alt="" />
+                  <p className='mt-4'>12+ YEARS</p>
+                  <p>COMPLETED</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img15} alt="" />
+                  <p className='mt-4'>60+ APPS</p>
+                  <p>LIVE</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img16} alt="" />
+                  <p className='mt-4'>45 + DEVELOPER</p>
+                  <p>TEAM</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img17} alt="" />
+                  <p className='mt-4'>5 STAR RATING</p>
+                  <p>IN UPWORK</p>
+                </div>
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img18} alt="" />
+                  <p className='mt-4'>+22000 HOURS </p>
+                  <p>ONLINE WORKING</p>
+                  <p>RECDORD</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img19} alt="" />
+                  <p className='mt-4'>250 + SATISFIED</p>
+                  <p>CLIENT</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img20} alt="" />
+                  <p className='mt-4'>95% CLIENT</p>
+                  <p>RETENTION</p>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6">
+                <div className="circle">
+                  <img src={img21} alt="" />
+                  <p className='mt-4'>BEST CREATIVE</p>
+                  <p>DESIGNER</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-
-                            <div className="row mt-5">
+                            {/* <div className="row mt-5">
                                 <div className="col-md-3 circle ">
                                     <img src={img14} alt="" />
                                     <div className='mt-2'>
@@ -222,8 +284,8 @@ const Page1 = () => {
                                     </div>
                                     DESIGNERS
                                 </div>
-                            </div>
-                        </div>
+                            </div> */}
+                        
                     </div>
                 </div>
             </section>

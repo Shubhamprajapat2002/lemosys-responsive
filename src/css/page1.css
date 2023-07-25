@@ -152,6 +152,7 @@ border-radius: 3px;
     justify-content: center;
     max-height: 163px;
     min-height: 267px;
+    line-height: 0.5;
 }
 
 .sec-5-heading{
@@ -286,7 +287,7 @@ flex-flow: wrap;
     .sec-1-font{
         font-size: xx-large !important;
     }
-    .sec-1-text{
+    /* .sec-1-text{
        
         top:85%;
         left: 46%;
@@ -294,7 +295,7 @@ flex-flow: wrap;
         color: white;
         width: 64%;
         text-align: start;
-    }
+    } */
 
     .sec-1-button-edit{
         margin-top: 20px;
@@ -316,7 +317,7 @@ flex-flow: wrap;
     flex-direction: column;
 }
 .sec-5-para{
-    padding: 4px 85px;
+    padding: 6px 6px;
 }
 
 .sm_lodo{
@@ -333,7 +334,7 @@ flex-flow: wrap;
     
 .footer-main {
    
-    height: 130vh;
+    height: 100vh;
 }
 
 .sm_lodo li{
@@ -357,13 +358,30 @@ margin: 10px ;
 }
 
 .sec-1-text {
-    top: 42%;
-    left: 45%;
+    top: 52%;
+    left: 42%;
+    width: 64%;
 }
 .image-small{
     width: 100%;
     height: 100%;
 }
+.circle{
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    
+    line-height: 0.5;
 
+    max-height: 124px;
+    min-height: 223px;
+    width: 100%;
+    max-width: 238px;
+    margin: 10px auto;
+}
 
 }
