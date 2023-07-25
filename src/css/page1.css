@@ -291,8 +291,16 @@ margin: auto;
         .sml{
             width: 56%;
         }
-
-
+        .sec-developement li{
+            padding: 4px 16px;
+            color: white;
+            font-family: 'ProximaNova-Bold',sans-serif;
+            font-weight: 530;
+           }
+.sec-developement{
+    display: flex;
+    flex-direction: column;
+}
 .sec-5-para{
     padding: 4px 85px;
 }
