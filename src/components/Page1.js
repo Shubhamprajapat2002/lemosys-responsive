@@ -69,23 +69,23 @@ const Page1 = () => {
                             <div className="row justify-content-between">
                                 <div className="col-md-2 d-md-flex flex-md-row">
                                     <p><img src={img1} alt="" /></p>
-                                    <p className='mx-3'>  Web Designing & Development</p>
+                                    <p className='mx-3 sec-2-small-font'>  Web Designing & Development</p>
                                 </div>
                                 <div className="col-md-2 d-md-flex flex-md-row">
                                     <p> <img src={img2} alt="" /></p>
-                                    <p className="mx-2">   Graphic Design</p>
+                                    <p className="mx-2 sec-2-small-font">   Graphic Design</p>
                                 </div>
                                 <div className="col-md-2 d-md-flex flex-md-row">
                                     <p>    <img src={img3} alt="" /> </p>
-                                    <p className="mx-3">      Digital Marketing</p>
+                                    <p className="mx-3 sec-2-small-font">      Digital Marketing</p>
                                 </div>
                                 <div className="col-md-2 d-md-flex flex-md-row">
                                     <p>  <img src={img4} alt="" /></p>
-                                    <p className="mx-2">  Mobile App Development</p>
+                                    <p className="mx-2 sec-2-small-font">  Mobile App Development</p>
                                 </div>
                                 <div className="col-md-2 d-md-flex flex-md-row">
                                     <p> <img src={img5} alt="" /></p>
-                                    <p className="mx-2">  Software Testing</p>
+                                    <p className="mx-2 sec-2-small-font">  Software Testing</p>
                                 </div>
                             </div>
                         </div>
@@ -156,11 +156,11 @@ const Page1 = () => {
                     <div className="section-4-mian py-5">
                        
 
-                            <h1 >HIRE WEBSITE DEVELOPMENT COMPANY IN INDIA</h1>
-                            <h2>WITH MOST IN-DEMAND SKILLS</h2>
+                            <h1 className='sec-4-sml-text' >HIRE WEBSITE DEVELOPMENT COMPANY IN INDIA</h1>
+                            <h2 className='sec-4-sml-text' >WITH MOST IN-DEMAND SKILLS</h2>
 
                             <div className="container">
-            <div className="row py-5">
+            <div className="row pt-5">
               <div className="col-md-3 col-sm-6">
                 <div className="circle">
                   <img src={img14} alt="" />
@@ -190,7 +190,7 @@ const Page1 = () => {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-4">
               <div className="col-md-3 col-sm-6">
                 <div className="circle">
                   <img src={img18} alt="" />
@@ -349,7 +349,7 @@ const Page1 = () => {
                       <div className="container">  
                     <img src={logo} alt="" />
                     <div className="footer-services ">
-                        <ul className='d-flex  flex-wrap justify-content-center mt-4 space'> 
+                        <ul className='d-flex  flex-wrap justify-content-md-center mt-4 space'> 
                             <li>Services</li>
                             <li> About Us</li>
                             <li>News</li>
@@ -362,7 +362,7 @@ const Page1 = () => {
                         </ul>
                     </div>
                     <div className="footer-social">
-                        <ul className='d-flex flex-wrap  justify-content-center mt-3 space-1'>
+                        <ul className='d-flex flex-wrap  justify-content-md-center mt-3 space-1'>
                             <li><i class="bi bi-facebook"></i></li>
                             <li><i class="bi bi-twitter"></i></li>
                             <li><i class="bi bi-linkedin"></i></li>
