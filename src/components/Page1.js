@@ -190,7 +190,7 @@ const Page1 = () => {
                 </div>
               </div>
             </div>
-            <div className="row mt-4">
+            <div className="row sec-4-top-0 mt-4">
               <div className="col-md-3 col-sm-6">
                 <div className="circle">
                   <img src={img18} alt="" />
@@ -375,9 +375,9 @@ const Page1 = () => {
 
 
                     <div className='footer-details'>
-                    <div className="row mt-5">
+                    <div className="row foter-smal mt-5">
                         <div className="col-md-4 text-start ">
-                        <img className='img-fluid mx-2 mt-4 ' src={call} alt="" />
+                        <img className='img-fluid mx-2 mt-4 foter-sml-logo' src={call} alt="" />
                           <span className='smal'>Call Us</span>              
                              <div className='marg-lef'>
                            <img src={india} alt="" /> +91 (731) 409-1887
@@ -385,7 +385,7 @@ const Page1 = () => {
                           
                         </div>
                         <div className="col-md-4 text-start ">
-                            <img className='img-fluid mx-1 mt-3 ' src={location} alt="" />
+                            <img className='img-fluid mx-1 mt-3 foter-sml-logo' src={location} alt="" />
                           <span className='smal'>Head Office: Plot 169, Scheme 78,Part II,</span>              
                              <div className='marg-lef'>
                              Behind Kanak Hospital Indore,  
@@ -394,7 +394,7 @@ const Page1 = () => {
                               </div>
 
                         <div className="col-md-4 text-start">
-                           <img className='img-fluid mx-2 mt-3 ' src={mail} alt="" />
+                           <img className='img-fluid mx-2 mt-3 foter-sml-logo' src={mail} alt="" />
                           <span className='smal'>sales@lemosys.com </span>              
                              <div className='marg-lef'>
                              <i class="bi bi-skype"></i> lemosys_infotech
@@ -415,8 +415,8 @@ const Page1 = () => {
                 <div className="footer-part-2 py-3">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-4 text-start">© 2023 Lemosys. All Rights Reserved.</div>
-                            <div className="col-md-8 text-start">Website Development Company  Rating <img src={star} alt="" /> 4.9 out of 5 based on 33 Review <img src={dcma} alt="" /></div>
+                            <div className="col-md-4 text-lg-start">© 2023 Lemosys. All Rights Reserved.</div>
+                            <div className="col-md-8 text-lg-start">Website Development Company  Rating <img src={star} alt="" /> 4.9 out of 5 based on 33 Review <img src={dcma} alt="" /></div>
                         </div>
                     </div>
                 </div>
